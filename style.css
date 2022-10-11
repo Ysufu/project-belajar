@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sans-Serif;
+}
+header {
+  background-color: black;
+  background-repeat: no-repeat;
+	background-size: cover;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  gap: 10px
+}
+navbar ul{
+  display: flex;
+  padding: 30px;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+.home {
+  margin-right: auto;
+  color: white;
+  margin-left: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  background-color: orange;
+  border-radius: 2px;
+  margin: 20px 20px;
+}
+.btn-etc {
+  color: orange;
+  background-color: orange;
+  font-size: 15px;
+  height: 28px;
+  margin-top: 30px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.countainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-family: Tahoma;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  gap: 5px
+  text-align: center;
+}
+h3 {
+  text-shadow: 2px 2px 2px aqua;
+  margin-left: 10px;
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  border: 3px solid black;
+}
+marquee {
+  font-family: Sans-Serif;
+}
+img {
+  max-width: 80%;
+  max-height: auto;
+}
+
+.profile {
+  display: flex;
+  background-color: red;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.wrapper {
+  background-color: black;
+  padding-left: 30px;
+}
